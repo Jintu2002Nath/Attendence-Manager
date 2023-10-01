@@ -1,0 +1,162 @@
+.s-left h1{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.s-wraper{
+    width: 100vw;
+    height: 100vh;
+    /* height: 90%; */
+    overflow: hidden;
+    display: flex;
+    padding: 3rem;
+    padding-top: .5rem;
+    gap:12rem;
+    /* transform: translateY(3.5rem); */
+    justify-content: center;
+    align-items: center;
+    background-color: #000814;
+}
+
+.s-left{
+    width: 50%;
+}
+
+.s-subheading{
+    font-size: 1.3rem;
+    color: #999DAA;
+
+}
+
+.s-itext{
+    color: #1FA2FF;
+    margin-bottom: 2rem;
+}
+
+.s-emailtext{
+    color:#999DAA;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.s-emailtext span{
+    color: red;
+    font-size: 1.2rem;
+}
+
+.s-frm-div .input{
+    background-color: #162236;
+    padding:.2rem .7rem;
+    border-radius: .5rem;
+    width: 18rem;
+    height: 2.7rem;
+    font-size: 1.2rem;
+    color: #fff;
+    box-shadow: .1rem .1rem 0  #999DAA;
+}
+
+.s-pass-span{
+    display: flex;
+    align-items: center;
+}
+
+.s-eye{
+    margin-left:-2rem ;
+    font-size: 1.3rem;
+}
+
+.s-name{
+    display: flex;
+    gap:1rem;
+    margin-top: 1rem;
+}
+
+.s-name p span{
+color: red;
+margin-left: .3rem;
+}
+
+.s-name p{
+    color: grey;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.s-name input{
+    background-color: #162236;
+    padding:.5rem .8rem ;
+    font-size: 1.2rem;
+    font-weight: 400;
+    border-radius: .5rem;
+    color:#fff;
+    box-shadow: .1rem .1rem 0 grey;
+}
+
+.s-wraper button{
+    background-color: #FFD60A;
+    width: 15rem;
+    margin-left: 1rem;
+    font-size: 1.3rem;
+    padding:  .3rem 0;
+    border-radius: .7rem;
+    color: #162236;
+    box-shadow: .2rem .2rem 0;
+    margin-top: 2rem;
+}
+
+.s-right{
+    width: 50%;
+    padding-top: 6rem;
+}
+
+.s-radio{
+    background-color: #162236;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13.4rem;
+    padding: .2rem;
+    border-radius: 2rem;
+}
+
+.s-radio span{
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: gray;
+    padding:  .5rem 1.1rem;
+    border-radius: 2rem;
+}
+
+.s-radio .s-active{
+    background-color: #000814;
+    color: #fff;
+   
+}
+
+
+.password-div-input{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.pass-eye{
+    color: grey;
+    font-size: 1.4rem;
+    margin-left: -2rem;
+}
+
+
+.s-name .text{
+    width: 8.3rem;
+}
+
+.password-div-input input{
+    width: 8rem;
+}
+
+.s-token1{
+    color: grey;
+    font-size: 1.1rem;
+}

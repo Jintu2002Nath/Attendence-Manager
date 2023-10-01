@@ -1,0 +1,52 @@
+.Home-wrp{
+    background-color: #161D29;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.home-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+.home-name{
+    font-size: 1.2rem;
+}
+
+
+.home-sub{
+    font-size: .9rem;
+    color: grey;
+    margin-top: -.5rem;
+}
+
+
+.home-btn{
+    display: flex;
+    gap:1rem;
+}
+
+
+.home-btn .Link{
+    background-color: yellow;
+    color: black;
+    padding:.2rem .5rem ;
+    border-radius: .3rem;
+}
+
+.home-btn .lnk{
+    background-color: grey;
+}
+
+.home-img{
+    border-radius: .5rem;
+    box-shadow: -.2rem -.2rem 1rem grey;
+}

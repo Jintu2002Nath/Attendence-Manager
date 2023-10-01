@@ -1,0 +1,61 @@
+.id-wraper{
+    background-color:#161D29;
+    min-height: 100vh;
+    width: 100vw;
+    color: #fff;
+    padding: 1rem;
+}
+
+.id-creat{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#FFD60A;
+    border-radius: .5rem;
+    color: black;
+    width: 8rem;
+    padding:  .3rem 0;
+    margin-bottom: 1rem;
+}
+
+.id-head{
+    background-color:#2C333F;
+    display: flex;
+    justify-content: space-between;
+    padding: .2rem 1rem;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+
+.id-class-head{
+    border: .1rem solid #2C333F;
+    border-radius: .5rem;
+}
+
+.id-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.id-ncc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.id-ncc p{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.ll-submit{
+    background-color: #FFD60A;
+    color: black;
+    border-radius: .4rem;
+    padding: .2rem .5rem;
+    margin: 1rem;
+}

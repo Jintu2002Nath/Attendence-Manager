@@ -1,0 +1,90 @@
+
+.alc-wraper{
+    display: flex;
+    align-items: center;
+    border-top:.1rem solid rgb(82, 81, 81) ;
+ }
+
+.sh-wraper{
+    display: flex;
+    justify-content: space-between;
+}
+
+ .alc-1{
+    display: flex;
+    align-items: center;
+    gap:.2rem;
+    margin-left: .3rem;
+ }
+
+ .alc-1 img{
+    width: 2rem;
+    border-radius:1rem;
+ }
+
+ .alc-img{
+    border-radius: 1000rem;
+ }
+
+ .alc-name-roll{
+    max-width: 8rem;
+ }
+
+ .alc-name-roll h1{
+    width: 8rem;
+ }
+
+ .alc-name-roll p{
+    font-size: .7rem;
+    max-width:8rem;
+    color: rgb(205, 205, 205);
+ }
+
+ .alc-percentage{
+    margin-left: 1.5rem;
+ }
+
+ .alc-btn button{
+    font-size: 1.5rem;
+    background-color: #2f3a4e;
+    padding: .7rem;
+    border-radius: .2rem;
+ }
+
+ .alc-btn{
+    display: flex;
+    gap:1rem;
+    margin-left: 3rem;
+ }
+
+ .alc-btn .redd{
+   background-color: red;
+ }
+
+.alc-btn .greenn{
+   background-color: green;
+ }
+
+.sh-percentage .red{
+   color: red;
+ }
+
+.sh-percentage .green{
+   color: green;
+ }
+
+.sh-percentage .yellow{
+   color: yellow;
+ }
+
+
+ .sh-percentage{
+    display: flex;
+    gap:.3rem
+ }
+
+ .sh-remove{
+    color: red;
+    font-size: 1.6rem;
+    margin-right: 2rem;
+ }

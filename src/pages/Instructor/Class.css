@@ -1,0 +1,7 @@
+.cls-wraper{
+    display: flex;
+    justify-content: space-between;
+    padding:.5rem 1rem ;
+    padding-right: 2.9rem;
+    border-top: .1rem solid #2C333F;
+}

@@ -1,0 +1,87 @@
+.l-left h1{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.l-wraper{
+    width:100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    padding: 3rem;
+    gap:12rem;
+    justify-content: center;
+    /* transform: translateY(14rem); */
+    align-items: center;
+    color: #fff;
+    background-color: #162236;
+}
+
+.-left{
+    width: 50%;
+}
+
+.l-subheading{
+    font-size: 1.3rem;
+    color: #999DAA;
+
+}
+
+.l-itext{
+    color: #1FA2FF;
+    margin-bottom: 2rem;
+}
+
+.l-emailtext{
+    color:#999DAA;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.l-emailtext span{
+    color: red;
+    font-size: 1.2rem;
+}
+
+.l-wraper .input{
+    background-color: #162236;
+    padding:.2rem .7rem;
+    border-radius: .5rem;
+    width: 18.5rem;
+    height: 2.7rem;
+    font-size: 1.2rem;
+    box-shadow: .1rem .1rem 0  #999DAA;
+}
+
+.l-pass-span{
+    display: flex;
+    align-items: center;
+}
+
+.l-eye{
+    margin-left:-2rem ;
+    font-size: 1.3rem;
+    color: grey;
+    cursor: pointer;
+}
+
+.l-forgot{
+    margin-left: 10.5rem;
+    color: #1FA2FF;
+}
+
+.l-wraper button{
+    background-color: #FFD60A;
+    width: 15.5rem;
+    margin-left: 1rem;
+    font-size: 1.3rem;
+    padding:  .3rem 0;
+    border-radius: .7rem;
+    color: #162236;
+    box-shadow: .2rem .2rem 0;
+    margin-top: 2rem;
+}
+
+.l-right{
+    width: 50%;
+}

@@ -1,0 +1,7 @@
+.scc-wraper{
+    display: flex;
+    padding:  .4rem 1rem;
+    justify-content: space-between;
+    margin-right: 2rem;
+}
+

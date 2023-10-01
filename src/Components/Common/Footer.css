@@ -1,0 +1,33 @@
+.ftr-wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: .1rem solid grey;
+    background-color:#2e394b;
+    color: grey;
+    padding: 1rem;
+    flex-direction: column;
+}
+
+.ftr-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ftr-2 p{
+    margin-top: -.5rem;
+}
+
+
+.ftr-2 h1{
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+
+.ftr-3 p{
+    font-size: .8rem;
+}

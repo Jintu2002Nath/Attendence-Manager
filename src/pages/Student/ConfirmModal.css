@@ -1,0 +1,89 @@
+
+.ccm-wraper{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.ccm-back{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    background-color: blue;
+    opacity: .3;
+}
+
+.ccm-main{
+    background-color: #161D29;
+    z-index: 999;
+    width: 80%;
+    border-radius: .5rem;
+}
+
+.ccm-warn{
+    border-top-right-radius: .5rem;
+    border-top-left-radius: .5rem;
+    background-color: #2a364b;
+    padding: .2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 1rem solid red; */
+}
+
+.ccm-body{
+     border-top: .1rem solid grey;
+     border-bottom-right-radius: .5rem;
+     border-bottom-left-radius: .5rem;
+     padding: 1rem;
+}
+
+.ccm1{
+    font-size: 1.2rem;
+}
+
+.ccm-2{
+    color: red;
+}
+
+.cc-6{
+    color: grey;
+}
+
+.ccm-btn{
+    background-color: yellow;
+    color: black;
+    padding: .2rem .5rem;
+    border-radius: .3rem;
+    margin-top: 1rem;
+}
+
+.ccn-entr span{
+color: red;
+}
+
+.ccm-input{
+    background-color: #2a364b;
+    width: 100%;
+    height: 2rem;
+    padding: .5rem;
+    color: #fff;
+    border-radius: .5rem;
+    border-bottom: .1rem solid grey;
+}
+
+.ccm-cls{
+    color: rgb(195, 195, 195);
+    font-size: 1.8rem;
+}

@@ -1,0 +1,82 @@
+
+.o-wraper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #1e2839;
+    color: #fff;
+}
+
+.o-wraper h1{
+    font-size: 1.9rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.o-wraper p{
+    font-size: 1.2rem;
+    color: gray;
+    width: 28rem;
+    font-weight: 450;
+}
+
+.o-wraper button{
+    background-color: #FFD60A;
+    width: 28rem;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 450;
+    padding: .3rem;
+    border-radius: .5rem;
+    box-shadow: .1rem .1rem 0 grey;
+    margin-top: 1rem;
+}
+
+.o-last{
+    display: flex;
+    width: 28rem;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.o-left p, .o-right p{
+    width: auto;
+}
+
+.o-right , .o-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:.2rem;
+    
+    
+}
+
+.o-left p{
+    color:#fff;
+}
+
+.o-right , .o-right p{
+    color: aqua;
+    cursor: pointer;
+}
+
+
+
+.otpinput{
+    background-color: #162236;
+    margin: 1.1rem;
+    font-size: 2.2rem;
+    padding:0 .6rem;
+    width: 5rem;
+    border-radius: .5rem;
+}
+
+.o-scl{
+    transform: scale(.68);
+}
+
+
+

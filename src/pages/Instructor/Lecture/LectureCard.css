@@ -1,0 +1,18 @@
+.cls-wraper{
+    display: flex;
+    justify-content: space-between;
+    padding:.5rem 1rem ;
+    padding-right: 4.4rem;
+    align-items: center;
+    border-top: .1rem solid #2C333F;
+}
+
+
+.lc-time{
+    transform: translateX(-2.4rem);
+}
+
+.cls-date{
+    font-size: .8rem;
+    color: rgb(153, 153, 153);
+}
